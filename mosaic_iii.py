@@ -62,14 +62,14 @@ else:
 
 total_sum_of_integer_mosaic = integer_height * integer_width  * summ
 
-min_weight_sum = integer_height * v_min_sum
+min_width_sum = integer_height * v_min_sum
 min_height_sum = integer_width * h_min_sum
 
 print(integer_width, integer_height)
 print(v_min_sum, h_min_sum)
-# print('min_weight_sum', min_weight_sum, 'min_height_sum', min_height_sum)
+# print('min_width_sum', min_width_sum, 'min_height_sum', min_height_sum)
 
-total_sum_of_integer_mosaic += min_weight_sum + min_height_sum
+total_sum_of_integer_mosaic += min_width_sum + min_height_sum
 print(min_height_sum)
 
 # Initialize minimum values
